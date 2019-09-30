@@ -1,0 +1,163 @@
+<!DOCTYPE=html>
+<!--
+  Name: PK
+  Date Created: 10/10/2020
+  Most recent revision: 10/10/2020
+-->
+<html lang=en>
+  <head>
+
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+    <title>Contact Us</title>
+    <!-- Bootstrap CDN copied from https://getbootstrap.com/docs/4.1/getting-started/introduction/ -->
+    <script type="text/JavaScript" src="formValid.js"></script>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css" integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO" crossorigin="anonymous">
+    <link href="styles/restaurantStyles.css" rel="stylesheet" type="text/css">
+    <link href="https://fonts.googleapis.com/css?family=Mansalva&display=swap" rel="stylesheet">
+    <link href="openiconic/font/css/open-iconic-bootstrap.css" rel="stylesheet">
+
+
+<style>
+  .rqr {
+    font-weight: bold;
+    font-size: 1.2em;
+  }
+  .slide {
+    font-family: Mansalva, cursive;
+  }
+</style>
+
+  </head>
+
+  <body>
+    <header>
+      <h1>Bubba's Classic American</h1>
+      <h4 class="font-italic">New Bloomington Location</h4>
+      <h5 class="font-italic">-Opening 10/31/2020!</h5>
+    </header>
+
+
+
+    <hr>
+
+
+    <nav>
+        <a class="btn badge-pill" href="index.html"><span class="oi oi-home" title="home" aria-hidden="true">&nbsp;</span>Home</a>
+      <a class="btn badge-pill" href="menu.html">Menu</a>
+      <a class="btn badge-pill" href="contact.html">Contact Us</a>
+    </nav>
+    <hr>
+    <div class=container>
+    <div class=feature>
+      <div id="carousel" class="carousel slide" data-ride="carousel">
+      <div class="carousel-inner">
+        <div class="carousel-item active">
+          <h2>We're opening a new location in Bloomington!</h2>
+        </div>
+        <div class="carousel-item">
+          <h2>We're rolling out our seasonal menu, with special options for this season.</h2>
+        </div>
+        <div class="carousel-item">
+          <h2>The Drink of the Month is<br> SG Special Brew.</h2>
+        </div>
+      </div>
+    </div>
+  </div>
+  </div>
+
+
+
+
+<div class=container>
+<div class=feature>
+  <noscript>
+    <h1>This page is best viewed with JavaScript enabled.  Please enable JavaScript to use the Contact form. Thanks!
+    </h1></noscript>
+      <form name="contact1" onsubmit="return validateItems();"
+        onreset="resetForm();">
+        <div class="form-group">
+        <label for="fieldsNote"><i>**Bold fields are required.**</i></label><br>
+        <label class=rqr for="name">Name:</label>
+        <input class="form-control" type="text" name="name" id="name"><br>
+        <label class=rqr for="email">Email:</label>
+        <input class="form-control" type="text" name="email" id="email"><br>
+        <label class=rqr for="phone">Phone:</label>
+        <input class="form-control" type="text" name="phone" id="phone"><br>
+        </div>
+
+
+        <div class="form-group">
+        <label for="inquiry">Reason for Inquiry:</label>
+        <select id="inquiry" name="inquiry">
+          <option default>Catering</option>
+          <option>Private Party</option>
+          <option>Feedback</option>
+          <option>Other</option>
+        </select><br>
+        </div>
+
+        <div class="form-group">
+        <label for="info">Additional Information:</label>
+        <textarea id="info" name="info"></textarea><br>
+        </div>
+
+
+        <div class="form-group">
+        Have you been to the restaurant?
+        <input checked type="radio" id=choice1 name=questionnaire value="NO" selected>
+        <label for="choice1">No</label>
+        <input type="radio" id=choice2 name=questionnaire value="YES">
+        <label for="choice2">Yes</label><br />
+        </div>
+
+        <div class="form-group">
+        Best days to contact you:
+        <input type="checkbox" id="monday" name=days value=monday />
+        <label for="monday">M</label>
+        <input type="checkbox" id="tuesday" name=days value=tuesday />
+        <label for="tuesday">T</label>
+        <input type="checkbox" id="wednesday" name=days value=wednesday />
+        <label for="database">W</label>
+        <input type="checkbox" id="thursday" name=days value=thursday />
+        <label for="backEnd">Th</label>
+        <input type="checkbox" id="friday" name=days value=friday />
+        <label for="database">F</label>
+        </div>
+
+        <br />
+        <button type="submit" id="submitButton" class="btn btn-default">Submit</button>
+        <button type="reset" id="resetButton" class="btn">Reset</button>
+
+
+
+
+
+
+      </form>
+</div>
+</div>
+
+
+
+
+
+
+
+
+    <hr>
+    <footer>
+      55555 Capitol Circle, Minneapolis, MN 55107<br>
+      (612) 555-5432
+    </footer>
+
+    <!-- CDN links copied from https://getbootstrap.com/docs/4.1/getting-started/introduction/ -->
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js" integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49" crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js" integrity="sha384-ChfqqxuZUCnJSK3+MXmPNIyE6ZbWh2IMqE241rYiqJxyMiZ6OW/JmZQ5stwEULTy" crossorigin="anonymous"></script>
+
+  </body>
+
+
+</html>
