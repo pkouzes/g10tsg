@@ -1,0 +1,86 @@
+/*
+Author: PK
+Created: 10/10/2020
+Last modified: 10/10/2020
+*/
+
+
+header, footer {
+  background-color: #931621;
+  color: #e1d89f;
+  text-align: center;
+  padding: 15px;
+  /*padding-top: 10px;
+  padding-bottom: 60px;*/
+
+}
+
+
+h1 {
+  font-family: Mansalva, cursive;
+  font-size: 50px;
+}
+
+hr {
+  background-color: #e1d89f;
+}
+
+
+nav {
+  text-align: center;
+
+}
+
+
+
+img {
+  padding-bottom: 10px;
+}
+
+
+nav a:visited {
+  color: #f4f1de;
+  background-color: #931621;
+  font-style: italic;
+}
+
+nav a:link {
+  color: #333;
+  background-color: #f4f1de;
+  text-decoration: none;
+}
+
+nav a:hover {
+  font-weight: bold;
+}
+
+.resulttab {
+
+}
+
+
+
+body {
+  background-color: #333;
+}
+
+.clear-float {
+  clear:both;
+}
+
+.feature {
+  background-color: #004777;
+  color: #f4f1de;
+  padding: 15px;
+  text-align: center;
+}
+.container {
+  padding: 50px;
+}
+.content {
+  padding-bottom: 20px;
+}
+th {
+  font-family: Mansalva, cursive;
+  font-size: 30px;
+}
